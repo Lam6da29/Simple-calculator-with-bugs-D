@@ -20,8 +20,7 @@ video{
   }
 .container{
     width: 1163px;
-    height: 1000px;
-    background-color: white;
+    height: 940px;
     display: inline-block;
     flex-direction: column;
 }
@@ -31,6 +30,7 @@ video{
     height: 277px;
     margin: 0 auto;
     background-color: #C4C4C4;
+    opacity: 0.5;
     margin-top: 8px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -58,6 +58,7 @@ a{
     font-size: 96px;
     line-height: 112px;
     background-color: #C4C4C4;
+    opacity: 0.5;
 }
 .seven:hover{
     transition: all 1s;
