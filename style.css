@@ -1,0 +1,124 @@
+body{
+    background: black;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+video{
+    overflow: hidden;
+}
+.bgvideo {
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+  }
+.container{
+    width: 1163px;
+    height: 940px;
+    display: inline-block;
+    flex-direction: column;
+}
+
+#result{
+    width: 1153px;
+    height: 277px;
+    margin: 0 auto;
+    background-color: #C4C4C4;
+    opacity: 0.5;
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 250px;
+    line-height: 293px;
+}
+.number_first{
+    width: 1153px;
+    height: 150px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.seven{
+    width: 284px;
+    height: 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 112px;
+    background-color: #C4C4C4;
+    opacity: 0.5;
+}
+.seven:hover{
+    transition: all 1s;
+    background-color: #B2B2B2;
+}
+.button{
+    margin-left: 5px;
+}
+.number_second{
+    width: 1153px;
+    height: 150px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.number_third{
+    width: 1153px;
+    height: 150px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.number_fourth{
+    width: 1153px;
+    height: 150px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.seven_sevens{
+    padding-top: 21px;
+    padding-bottom: 22px;
+    padding-left: 112px;
+    padding-right: 112px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 112px;
+    background-color: #C4C4C4;
+    margin-left: 280px;
+}
+.seven_sevens:hover{
+    transition: all 1s;
+    background-color: #B2B2B2;
+}
+.seven_seven{
+    padding-top: 21px;
+    padding-bottom: 22px;
+    padding-left: 112px;
+    padding-right: 112px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 112px;
+    background-color: #C4C4C4;
+    margin-left: 280px;
+}
+.seven_seven:hover{
+    transition: all 1s;
+    background-color: #B2B2B2;
+}
